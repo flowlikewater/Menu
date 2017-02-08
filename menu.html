@@ -15,7 +15,8 @@
       ga('send', 'pageview');
 
     </script>
-    <!-- End Google Analytics -->
+
+  <!-- End Google Analytics -->
 
   <title>menu</title>
   </head>
@@ -31,13 +32,21 @@
             <li><a href='#3'>menu</a></li>
           </ol>
         </div>
-        <img src='assets/logoBig.png' style='position: absolute; top: 70px; left: 600px'>
-        <h1>we provide the best food <br>at the right price</h1>
+        <img src='assets/logoBig.png' style='position: relative; top: 0px; left: -35px;'>
+        <h2>we provide the best food <br>at the right price</h2>
+        <br>
+        <div class='visitors'>
+          <h4>Total number of visitors to date</h4>
+          <div class='visitors-number' style='font-size: 30px; color: white'>0</div>
+        </div>
       </div>
       <div class='row'>
         <div class='col-md-3'>
-          <div class='row left' style='background: grey;'>Happy Hour</div>
-          <div class='row left' style='background: orange;'>Party Time</div>
+          <div class='row left happy-hour' style='background: grey;'>
+            <div id='dialog'>Open tap: $100</div>
+            Happy Hour
+          </div>
+          <div class='row left party-time' style='background: orange;'><div class='party-time-modal'><h1>Party times: 11pm till late</h1></div>Party Time</div>
         </div>
         <div class='col-md-3 breakfast right'>breakfast</div>
         <div class='col-md-3 lunch right'>lunch</div>
@@ -144,6 +153,8 @@
     </div>
 
     <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="external/jquery/jquery.js"></script>
+    <script src="jquery-ui.min.js"></script>
     <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
     <script type='text/javascript' src='menu.js'></script>
 

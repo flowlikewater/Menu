@@ -53,7 +53,7 @@ html, body {
 
 .one img {
   position: relative;
-  margin-top: 5%;
+  margin-top: 2.3%;
 }
 
 .left {
@@ -65,6 +65,9 @@ html, body {
   height: 176px;
   padding: 6%;
 }
+
+
+
 
 .breakfast {
   background: url('assets/foodtop/breakfast.jpg');
